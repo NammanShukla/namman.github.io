@@ -176,7 +176,7 @@ span.navbar-text {
   filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%) contrast(86%);
 }
 
-/*Views*/
+/*Views for navbar*/
 @media (min-width: 2560px) {
   body {
     font-size: 22px; 
@@ -219,3 +219,116 @@ span.navbar-text {
     margin-top: -5%;
   }
 }
+
+/*Banner CSS*/
+
+.banner {
+  margin-top: 0;
+  padding-left: 4%;
+  padding-top: 12%;
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.banner .tagline {
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  padding: 8px 10px;
+  background: linear-gradient(90deg, rgba(31,31,31,1) 0%, rgba(102,10,119,1) 100%);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  font-size: 20px;
+  margin-bottom: 16px;
+  display: inline-block;
+}
+.banner h1 {
+  font-size: 55px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 1;
+  margin-bottom: 20px;
+  display: block;
+}
+.banner p {
+  color: #B8B8B8;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  width: 96%;
+}
+.banner button {
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 60px;
+  letter-spacing: 0.8px;
+  display: flex;
+  align-items: center;
+}
+.banner button svg {
+  font-size: 25px;
+  margin-left: 10px;
+  transition: 0.3s ease-in-out;
+  line-height: 1;
+}
+.banner button:hover svg {
+  margin-left: 25px;
+}
+.banner img {
+  animation: updown 3s linear infinite;
+  width: 10%;
+  height: 10%;
+  margin-left: 80%;
+  margin-top: -5%;
+
+}
+@keyframes updown {
+    0% {
+        transform: translateY(-20px);
+    }
+    50% {
+        transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+}
+.txt-rotate > .wrap {
+  border-right: 0.08em solid #666;
+}
+
+/*Carousel CSS*/
+.project {
+  padding: 0 0 50px 0;
+  position: relative;
+  margin-top: 8%; 
+}
+.project-bx {
+  background: #151515;
+  border-radius: 70px;
+  text-align: center;
+  padding: 2%;
+  margin-top: -60px;
+}
+.project h2 {
+	font-size: 45px;
+	font-weight: 700;
+}
+.project p {
+    color: #B8B8B8;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    margin: 14px 0 75px 0;
+}
+.project-slider {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+.project-slider img {
+  width: 50%;
+  border-radius: 10%;
+  margin: 0 auto 15px auto;
+}
+
+
