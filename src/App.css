@@ -95,7 +95,7 @@ nav.navbar {
 }
 
 nav.navbar.scrolled {
-  padding: 0px 0;
+  padding: 25px 0;
   background-color: #121212;
 }
 
@@ -107,7 +107,7 @@ nav.navbar .navbar-brand {
 
 
 nav.navbar .navbar-nav {
-  margin-left: 33.5%;
+  margin-left: 40%;
   margin-bottom: -0.1%;
 }
 
@@ -220,6 +220,13 @@ span.navbar-text {
   }
 }
 
+@media (min-width: 1920px) {
+  nav.navbar.scrolled {
+    padding: 25px 0;
+    background-color: #121212;
+  }
+}
+
 /*Banner CSS*/
 
 .banner {
@@ -274,7 +281,7 @@ span.navbar-text {
   margin-left: 25px;
 }
 .banner img {
-  animation: updown 3s linear infinite;
+  animation: updown 5s linear infinite;
   width: 10%;
   height: 10%;
   margin-left: 80%;
@@ -298,7 +305,7 @@ span.navbar-text {
 
 /*Carousel CSS*/
 .project {
-  padding: 0 0 50px 0;
+  padding: 20px 20px 50px 20px;
   position: relative;
   margin-top: 8%; 
 }
@@ -321,7 +328,7 @@ span.navbar-text {
     margin: 14px 0 75px 0;
 }
 .project-slider {
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
   position: relative;
 }
@@ -331,4 +338,42 @@ span.navbar-text {
   margin: 0 auto 15px auto;
 }
 
+.project h5{
+  padding: 2%;
+}
+.project-button{
+  font-weight: 700;
+  font-family: Jetbrains;
+  border-radius: 12px;
+  display: inline-flex;
+  color: #fff;
+  letter-spacing: 0.8px;
+  padding: 1%;
+  background: rgba(217, 217, 217, 0.1);
+  margin-bottom: 16px;
+  font-size: 20px;
+}
 
+.project-button ::before{
+  transform: scale(0);
+  transition: 0.3s ease-in-out;
+  background-color: #fff;
+}
+
+.project-button :hover{
+  filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%) contrast(86%);
+}
+
+.project-button h6{
+  z-index: 1;
+  transition: 0.3s ease-in-out;
+  padding: 5px;
+}
+
+.react-multiple-carousel__arrow{
+  margin-bottom: 10%;
+}
+
+.arrow-more{
+  display: inline-flex;
+}
