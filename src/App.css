@@ -307,7 +307,10 @@ span.navbar-text {
 .project {
   padding: 20px 20px 50px 20px;
   position: relative;
+  margin-left: 2.5%; 
   margin-top: 8%; 
+  
+  width: 95%;
 }
 .project-bx {
   background: #151515;
@@ -328,10 +331,9 @@ span.navbar-text {
     margin: 14px 0 75px 0;
 }
 .project-slider {
-  width: 100%;
+  width: 80%;
   margin: 0 auto;
-  position: relative;
-}
+} 
 .project-slider img {
   width: 50%;
   border-radius: 10%;
