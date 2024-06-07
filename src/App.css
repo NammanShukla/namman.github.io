@@ -107,7 +107,7 @@ nav.navbar .navbar-brand {
 
 
 nav.navbar .navbar-nav {
-  margin-left: 40%;
+  margin-left: 42%;
   margin-bottom: -0.1%;
 }
 
@@ -285,7 +285,7 @@ span.navbar-text {
   width: 10%;
   height: 10%;
   margin-left: 80%;
-  margin-top: -5%;
+  margin-top: -4%;
 
 }
 @keyframes updown {
@@ -305,9 +305,9 @@ span.navbar-text {
 
 /*Carousel CSS*/
 .project {
-  padding: 20px 20px 50px 20px;
+  padding: 20px 20px 20px 20px;
   position: relative;
-  margin-left: 2.5%; 
+  margin-left: 1.2%; 
   margin-top: 8%; 
   
   width: 95%;
@@ -331,7 +331,7 @@ span.navbar-text {
     margin: 14px 0 75px 0;
 }
 .project-slider {
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
 } 
 .project-slider img {
@@ -341,41 +341,145 @@ span.navbar-text {
 }
 
 .project h5{
-  padding: 2%;
+  padding-bottom: 3%;
 }
+.project h6{
+  color: #000;
+}
+
 .project-button{
-  font-weight: 700;
-  font-family: Jetbrains;
-  border-radius: 12px;
-  display: inline-flex;
+  display: inline-block;
+  padding: .75rem 1.25rem;
+  border-radius: 10rem;
   color: #fff;
-  letter-spacing: 0.8px;
-  padding: 1%;
-  background: rgba(217, 217, 217, 0.1);
-  margin-bottom: 16px;
-  font-size: 20px;
-}
-
-.project-button ::before{
-  transform: scale(0);
-  transition: 0.3s ease-in-out;
-  background-color: #fff;
-}
-
-.project-button :hover{
-  filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%) contrast(86%);
-}
-
-.project-button h6{
+  font-family: Jetbrains;
+  font-size: 1.2rem;
+  letter-spacing: .15rem;
+  transition: all .3s;
+  position: relative;
+  overflow: hidden;
   z-index: 1;
-  transition: 0.3s ease-in-out;
-  padding: 5px;
+}
+
+.project-button:after{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  border-radius: 10rem;
+  z-index: -2;
+}
+
+.project-button:before{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: darken(#000, 15%);
+  transition: all .3s;
+  border-radius: 10rem;
+  z-index: -1
+}
+
+.project-button:hover{
+  color: #fff;
 }
 
 .react-multiple-carousel__arrow{
   margin-bottom: 10%;
 }
 
-.arrow-more{
+/**** Modal CSS *****/
+
+.modal{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin-top: 10%;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1000;
+  padding-top: 10%;
+}
+
+.modal-content {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 50px;
+  background-color: #fff;
+  z-index: 1000;
+  margin-top:3.6%;
+  background-color: #fff;
+  border-radius: 8px;
+  max-width: 600px;
+  width: 90%;
+  padding: 20px;
+  position: relative;
+  text-align: left;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left:0; 
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 70%;
+  z-index: 1000;
+
+}
+
+
+.modal-content h6{
+  margin-top: 5%;
+  font-size: 14px;
+  color: #888;
+}
+
+.modal-content p{
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
+}
+
+.modal-content h4{
+  margin-top: 0;
+  font-size: 24px;
+  color: #333;
+  justify-content:flex-end;
+}
+
+.website-image{
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.modal-close{
+  position: relative; 
+  padding: 1%;
+  margin-right: 2%;
+  margin-top: 2%;
+  border-radius: 88%;
+  transition: 0.4s;
+  font-size: 20px;
   display: inline-flex;
+  background-color: white;
+  
+}
+
+.modal-close:hover{
+  background-color: #000;
 }
