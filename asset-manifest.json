@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/namman.github.io/static/css/main.b6cf9eb3.css",
-    "main.js": "/namman.github.io/static/js/main.47c038c7.js",
+    "main.js": "/namman.github.io/static/js/main.ed2c28bc.js",
     "static/js/453.b21437c2.chunk.js": "/namman.github.io/static/js/453.b21437c2.chunk.js",
     "static/media/alchemist-modal.png": "/namman.github.io/static/media/alchemist-modal.ac4c98a7ef2f6b178907.png",
     "static/media/id8-website.svg": "/namman.github.io/static/media/id8-website.b437e28ba7fb0e2c51066544889a5156.svg",
@@ -23,11 +23,11 @@
     "static/media/github-mark-white.svg": "/namman.github.io/static/media/github-mark-white.97ed8e7eef60d61ca469881dd6f34511.svg",
     "index.html": "/namman.github.io/index.html",
     "main.b6cf9eb3.css.map": "/namman.github.io/static/css/main.b6cf9eb3.css.map",
-    "main.47c038c7.js.map": "/namman.github.io/static/js/main.47c038c7.js.map",
+    "main.ed2c28bc.js.map": "/namman.github.io/static/js/main.ed2c28bc.js.map",
     "453.b21437c2.chunk.js.map": "/namman.github.io/static/js/453.b21437c2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b6cf9eb3.css",
-    "static/js/main.47c038c7.js"
+    "static/js/main.ed2c28bc.js"
   ]
 }
