@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/namman.github.io/static/css/main.b6cf9eb3.css",
+    "main.js": "/namman.github.io/static/js/main.47c038c7.js",
+    "static/js/453.b21437c2.chunk.js": "/namman.github.io/static/js/453.b21437c2.chunk.js",
+    "static/media/alchemist-modal.png": "/namman.github.io/static/media/alchemist-modal.ac4c98a7ef2f6b178907.png",
+    "static/media/id8-website.svg": "/namman.github.io/static/media/id8-website.b437e28ba7fb0e2c51066544889a5156.svg",
+    "static/media/id8-ai.svg": "/namman.github.io/static/media/id8-ai.39e6a0d5cc81f0ed327bf8038c212b48.svg",
+    "static/media/AI-test.png": "/namman.github.io/static/media/AI-test.5aa18b6c38c9635fcc6d.png",
+    "static/media/solasphere-post.svg": "/namman.github.io/static/media/solasphere-post.b135014246b13e0bab761c08b7f0de16.svg",
+    "static/media/solasphere.png": "/namman.github.io/static/media/solasphere.b8686111d038978ee7e0.png",
+    "static/media/alchemist-post.svg": "/namman.github.io/static/media/alchemist-post.98ecc5ede8cecb3624f3d11f97b352b8.svg",
+    "static/media/id8-website-2.png": "/namman.github.io/static/media/id8-website-2.f2fdfb35b773fe2ecabf.png",
+    "static/media/JetBrainsMono-Bold.ttf": "/namman.github.io/static/media/JetBrainsMono-Bold.06bb09be120e8b604064.ttf",
+    "static/media/JetBrainsMono-Medium.ttf": "/namman.github.io/static/media/JetBrainsMono-Medium.a62f3f8ee7c13d92dd8d.ttf",
+    "static/media/JetBrainsMonoNL-Regular.ttf": "/namman.github.io/static/media/JetBrainsMonoNL-Regular.432a7b1048bd216e8990.ttf",
+    "static/media/revicons.eot": "/namman.github.io/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/namman.github.io/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/mew.png": "/namman.github.io/static/media/mew.9e5b0adf66614302d8e5.png",
+    "static/media/revicons.woff": "/namman.github.io/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/web-logo.svg": "/namman.github.io/static/media/web-logo.60af0fad09d1c85142322263f0061dae.svg",
+    "static/media/linkedin.svg": "/namman.github.io/static/media/linkedin.c396b09c476747f633baac207375e271.svg",
+    "static/media/github-mark-white.svg": "/namman.github.io/static/media/github-mark-white.97ed8e7eef60d61ca469881dd6f34511.svg",
+    "index.html": "/namman.github.io/index.html",
+    "main.b6cf9eb3.css.map": "/namman.github.io/static/css/main.b6cf9eb3.css.map",
+    "main.47c038c7.js.map": "/namman.github.io/static/js/main.47c038c7.js.map",
+    "453.b21437c2.chunk.js.map": "/namman.github.io/static/js/453.b21437c2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b6cf9eb3.css",
+    "static/js/main.47c038c7.js"
+  ]
+}
