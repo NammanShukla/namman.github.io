@@ -10,4 +10,4 @@
 
 #### 09/06/2024 - For today, I was in a call with my friends to ask for feedback on the website as well as I added information on the project's modals. I have ideas to make the website better i.e. add more stuff to the about me section... 
 
-### 15/06/24 - This week, I took much needed rest while working on the views of the website, for now the website should look okay on 1080p and 4k (maybe some laptops too). I also hide the navigation section as i feel like the website is not big enough to have a navigation bar, making it useless in my opinion. 
+#### 15/06/24 - This week, I took much needed rest while working on the views of the website, for now the website should look okay on 1080p and 4k (maybe some laptops too). I also hide the navigation section as i feel like the website is not big enough to have a navigation bar, making it useless in my opinion. 
