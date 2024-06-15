@@ -91,7 +91,7 @@ export const Projects = () => {
                                     The results from the recognition model will be converted to a TXT file which will be sent over to the locally hosted LLM (speficially trained for recipe generation). The response from the LLM would be sent over the Web Application. 
                                     Django Framework was used to make the Web Application.
                                 </p>
-                                <h6> Skills: Object Recognition, Natural Language Processing, Web Developement (Django), API Integratio, Git </h6>
+                                <h6> Skills: Object Recognition, Natural Language Processing, Web Developement (Django), API Integration, Git </h6>
                                     
                                 </Modal>
                             </div>
