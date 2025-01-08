@@ -52,7 +52,7 @@ export const Banner = () => {
                         <p>
                             20 years old IT Fresh Graduate with a Bachelor of Information Technology from JCU Singapore. With over five years of experience in Python and background in Software Engineering, Web Development, Database Management and Agile Frameworks.
                         </p>
-                        <button onClick={() => window.open('https://docs.google.com/document/d/1Od4I726NFX8puxezQ86BhVdT_DC1kb0I4p-6oGl52Rc/edit?usp=sharing', '_blank')}>My Resume <ArrowRightCircle size={25} /> </button>
+                        <button onClick={() => window.open('https://drive.google.com/file/d/1P0gMfusTxHyrd8DPpF8BIYjwRMmvmPia/view?usp=sharing', '_blank')}>My Resume <ArrowRightCircle size={25} /> </button>
                     </Col>
 
                     <Col xs={12} md={6} xl={5}>
