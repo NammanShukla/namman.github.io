@@ -1,6 +1,6 @@
 import { Container } from "react-bootstrap";
 import Carousel from "react-multi-carousel"; 
-import Modal from "./Modal";
+import Modal from "./modal.js";
 import "react-multi-carousel/lib/styles.css"; 
 import { Row, Col } from "react-bootstrap"; 
 import id8ai from "./assets/id8-ai.svg"; 
@@ -79,7 +79,7 @@ export const Projects = () => {
                             <div>
                                 <img src={alchemist} alt="image" />
                                 <h4>Alchemist: Recipe Generator</h4>
-                                <h5> Using Object Recognition (Python) and a Language Model, developed an application that will recognise ingredients in the fridge and give you a random recipe you can make. </h5>
+                                <h5> Built an app using Object Recognition (Python) and a Language Model to identify fridge ingredients and suggest random recipes. </h5>
                                 <button className="project-button" onClick={() => handleOpenModal('alchemist')}><h6>Show More</h6></button>
                                 <Modal open={openModal === 'alchemist'} onClose={handleCloseModal}>
                                 <img src={alchemist2} className="modal-images"/>
