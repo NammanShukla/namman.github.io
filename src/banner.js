@@ -47,12 +47,12 @@ export const Banner = () => {
             <Container>
                 <Row className="align-items-center">
                     <Col xs={12} md={6} xl={7}>
-                        <span className="tagline"> Hello There! </span>
+                    {/*<span className="tagline"> Hello There! </span>*/}
                         <h1>{`I'm Namman Shukla `} <span className="wrap">{text}</span></h1>
                         <p>
-                            20 years old IT Fresh Graduate with a Bachelor of Information Technology from JCU Singapore. With over five years of experience in Python and background in Software Engineering, Web Development, Database Management and Agile Frameworks.
+                            an IT Graduate from New Delhi with a B.Tech/Bachelor's of Information Technology, I have strong experience in Python programming, building custom PCs, exploring tech projects ! I'm seeking IT opportunities where I can apply my skills, solve problems, and continue to learn.
                         </p>
-                        <button onClick={() => window.open('https://drive.google.com/file/d/1P0gMfusTxHyrd8DPpF8BIYjwRMmvmPia/view?usp=sharing', '_blank')}>My Resume <ArrowRightCircle size={25} /> </button>
+                        <button onClick={() => window.open('https://drive.google.com/file/d/1Au64E5vJMfVEs53FHuN3STQqrvxWm3B_/view?usp=sharing', '_blank')}>My Resume <ArrowRightCircle size={25} /> </button>
                     </Col>
 
                     <Col xs={12} md={6} xl={5}>
