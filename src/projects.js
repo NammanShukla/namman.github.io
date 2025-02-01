@@ -72,7 +72,7 @@ export const Projects = () => {
                                     </p>
                                     
 
-                                    <h6>Skills: Python, API Integration, LLMs, Git, Applied NLP Techniques </h6>
+                                    <h6>Skills: Python, API Integration, LLMs, Git </h6>
                                 </Modal>
                             </div>
 

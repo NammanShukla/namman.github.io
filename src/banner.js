@@ -48,7 +48,7 @@ export const Banner = () => {
                 <Row className="align-items-center">
                     <Col xs={12} md={6} xl={7}>
                     {/*<span className="tagline"> Hello There! </span>*/}
-                        <h1>{`I'm Namman Shukla `} <span className="wrap">{text}</span></h1>
+                        <h1>{`I'm Namman Shukla `} <span className="wrap">{text}{'|'}</span></h1>
                         <p>
                             an IT Graduate from New Delhi with a B.Tech/Bachelor's of Information Technology, I have strong experience in Python programming, building custom PCs, exploring tech projects ! I'm seeking IT opportunities where I can apply my skills, solve problems, and continue to learn.
                         </p>
