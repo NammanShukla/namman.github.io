@@ -8,6 +8,8 @@ import id8website2 from "./assets/id8-website-2.png";
 import id8website from "./assets/id8-website.svg";
 import alchemist from "./assets/alchemist-post.svg";
 import solasphere from "./assets/solasphere-post.svg";
+import homeserver from "./assets/home-server.svg";
+import homeserver2 from "./assets/home-server-2.svg";
 import { ArrowUpRightSquare, Github } from "react-bootstrap-icons";
 import { useState } from "react"; 
 import 'react-awesome-slider/dist/styles.css';
@@ -133,6 +135,26 @@ export const Projects = () => {
                                     </p>
 
                                     <h6>Skills: Lightsail, Route 53, Wordpress, Blender </h6>
+
+                                    
+                                </Modal>
+                            </div>
+
+                            <div>
+                                <img src={homeserver} alt="image" />
+                                <h4>DIY Home server</h4>
+                                <h5> Repurposed old gaming pc into a home server with Plex, Minecraft, Tailscale for secure access, and a Raspberry Pi for remote power control. </h5>
+                                <button className="project-button" onClick={() => handleOpenModal('home-server')}><h6>Show More</h6></button>
+                                <Modal open={openModal === 'home-server'} onClose={handleCloseModal} className='modal'>
+                                    <img src={homeserver2} className="modal-images"/>
+                                     <h4>DIY Home Server</h4> <a href="https://docs.google.com/document/d/1xg9mhcLzwKbfeAWEiFaJPRWCs-vPFomKNE2vJUJYcnI/edit?usp=sharing" target="blank"><button className="link-button-6"><ArrowUpRightSquare className="arrow-link"></ArrowUpRightSquare> Docs</button></a>
+                                    <p>
+                                        This project documents the tranformation of an old gaming PC into a powerful home server. It runs Ubuntu 24.04 LTS, hosting a Plex media server and a Minecraft Server. Overcoming Double NAT restrictions, it uses Playit.gg 
+                                        for public access and Tailscale for secure remote access. A Raspberry Pi enables remote management.
+                                    
+                                    </p>
+
+                                    <h6>Skills: Networking, Shell Scripting and Automation, Server Management </h6>
 
                                     
                                 </Modal>
