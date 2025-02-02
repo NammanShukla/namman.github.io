@@ -1,0 +1,87 @@
+/* Restrict Access to 720p and Lower */
+@media (max-width: 1280px) {
+  body {
+    display: none !important;
+  }
+}
+
+/* 1281px to 1440p Display Optimization */
+@media (min-width: 1281px) and (max-width: 1440px) {
+  body {
+    font-size: 20px;
+  }
+  
+  .banner h1 {
+    font-size: 60px;
+  }
+  .logo {
+    height: 120px;
+    width: 120px;
+    margin-left: 24%;
+  }
+  nav.navbar {
+    padding: 15px 0 !important;
+    top: 0 !important;
+  }
+
+  .social-icon{
+    margin-left: 970%;
+  }
+
+
+}
+
+@media (min-width:1441px) and (max-width:1920px){
+.logo{
+  margin-left: 25%;
+}
+
+.social-icon{
+  margin-left: 1010%;
+}
+
+
+
+}
+
+/* 1921px to 2560px Display Optimization */
+@media (min-width: 1921px) and (max-width: 2560px) {
+  body {
+    font-size: 24px;
+  }
+  
+  .banner h1 {
+    font-size: 80px;
+  }
+  .logo {
+    height: 200px;
+    width: 200px;
+    margin-left: 27%;
+  }
+  nav.navbar {
+    padding: 20px 0 !important;
+    top: 0 !important;
+  }
+  nav.navbar .navbar-nav .nav-link.navbar-link {
+    font-size: 26px;
+    padding: 0 25px;
+  }
+  .social-icon {
+    margin-right: 0px;
+    margin-left: 1330%;
+    display: inline-flex;
+    margin-top: 50%;
+  }
+  .social-icon a {
+    width: 60px;
+    height: 60px;
+  }
+  .social-icon a img {
+    width: 55%;
+  }
+
+  .banner img{
+    margin-top:-4%;
+  }
+}
+
