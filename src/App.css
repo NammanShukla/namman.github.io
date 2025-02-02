@@ -75,62 +75,38 @@ p.danger {
 nav.navbar {
   padding: 0px 0;
   position: fixed;
+  display: inline-flex; /* this will do something that i would need*/ 
   width: 100%;
-  top: -14%;
+  top: 0%;
   z-index: 99;
-  transition: 0.32s ease-in-out;
+  transition: 0.33s ease-in-out;
 }
 
-.logo{
-  margin-left: -7.5%;
-  width: 25%;
-  margin-bottom: -12.5%;
+.logo{ 
+  width:125px;
+  height: 125px;
+  display: inline-block;
+  margin-left: 24%; /*nav bar align*/
+  margin-top: 2%;
 }
 
 nav.navbar.scrolled {
-  padding: 20px 0;
+  padding: 1px 0 !important;
   background-color: #121212;
 }
 
-nav.navbar .navbar-brand {
-  color: #fff;
-  margin-left: 3%;
-  margin-top:0.5%;
+.nav-container {
+  display: inline-flex;
 }
 
 
-nav.navbar .navbar-nav {
-  margin-left: 42%;
-  margin-bottom: -0.1%;
-}
 
-
-nav.navbar .navbar-nav .nav-link.navbar-link {
-  font-weight: 400;
-  color: #fff !important;
-  letter-spacing: 0.8px;
-  padding: 0 25px;
-  font-size: 18px;
-  opacity: 0.75;
-}
-
-nav.navbar .navbar-nav .nav-link.navbar-link:hover,
-nav.navbar .navbar-nav .nav-link.navbar-link.active {
-  opacity: 1;
-}
-.me-auto{
-  visibility: hidden;
-}
-span.navbar-text {
-  display: flex;
-  align-items: center;
-}
 
 /*************************************** Social Icons CSS *****************************************/
 .social-icon {
-  display: inline-block;
-  margin-left: 88.7%;
-  margin-top: -2.3%;
+  display: inline-flex;
+  margin-left: 1020%;
+  margin-top: 40%;
 }
 
 .social-icon a {
@@ -358,14 +334,10 @@ span.navbar-text {
   align-items: center;
   justify-content: center;
   position: fixed;
-  top: 0;
-  left: 0;
-  margin-top: 10%;
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.7);
   z-index: 100;
-  padding-top: 10%;
 }
 
 .modal-content {
@@ -639,226 +611,37 @@ span.navbar-text {
   color: rgb(255, 255, 255, .7);
 }
 
-
-
-/************************************** Views *****************************************************/
-
-/* FHD or 4K */
-@media (min-width: 2560px) {
-  body {
-    font-size: 22px; 
-  }
-
-  .container {
-    padding: 50px; 
-  }
-
-  .logo{
-    margin-left: -7.5%;
-    width: 25%;
-    margin-bottom: -8.4%;
-  }
-
-  nav.navbar .navbar-brand {
-    width: 5%; 
-  }
-
-  nav.navbar .navbar-nav .nav-link.navbar-link {
-    font-size: 30px; 
-    padding: 0 30px; 
-  }
-
-  nav.navbar .navbar-nav {
-    margin-left: 37%;
-  }
-
-  .social-icon{
-    margin-left: 87.5%;
-  }
-
-  .social-icon a {
-    width: 60px;
-    height: 60px; 
-    margin-top: 2%;
-  }
-
-  .social-icon a img {
-    width: 60%; 
-  }
-
-  .navbar-nav{
-    margin-top: -5%;
-  }
-
-  nav.navbar.scrolled {
-    padding: 20px 0;
-    background-color: #121212;
-  }
-
-  nav.navbar {
-    padding: 0px 0;
-    position: fixed;
-    width: 100%;
-    top: -18%;
-    z-index: 99;
-    transition: 0.32s ease-in-out;
-  }
-
-  .banner{
-    margin-top: -5%;
-  }
-  
-  .banner img{
-    margin-top:-3%;
-  }
-
-  .project {
-    margin-top: 1%;
-  }
-
-  /** 2k Modal **/
-  .modal{
-    height: 100%;
-    width: 100%;
-    font-size: 26px;
-  }
-
-  .modal{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    margin-top: 10%;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
-    z-index: 100;
-    padding-top: 10%;
-  }
-  
-  .modal-content {
-    position: fixed;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 50px;
-    background-color: #fff;
-    z-index: 1000;
-    margin-top:3.6%;
-    background-color: #fff;
-    border-radius: 8px;
-    max-width: 600px;
-    width: 90%;
-    padding: 20px;
-    position: relative;
-    text-align: left;
-  }
-  
-  .modal-overlay {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left:0; 
-    background-color: rgba(0, 0, 0, 0.7);
-    opacity: 70%;
-    z-index: 1000;
-  }
-  
-  .modal-content h6{
-    margin-top: 5%;
-    font-size: 14px;
-    color: #888;
-  }
-  
-  .modal-content p{
-    font-size: 18px;
-    padding-top: 2%;
-    line-height: 1.6;
-    color: #555;
-  }
-  
-  .modal-content h4{
-    margin-top: 0;
-    font-size: 24px;
-    color: #333;
-    justify-content:flex-end;
-  }
-  
-  .modal-content h5{
-    color: #333;
-    text-decoration: underline;
-    padding-top: 2%;
-  }
-  
-  .modal-images{
-    width: 100%;
-    border-radius: 8px;
-    margin-bottom: 15px;
-  }
+.link-button-6 {
+  align-items: center;
+  background-color: #6e1615;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: flex;
+  margin-left: 40%;
+  margin-top: -6%;
+  font-family: JetBrains;
+  font-size: 14px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
 }
 
-/* 1080p */
-@media (min-width: 1920px){
-  nav.navbar.scrolled {
-    padding: 25px 0;
-    background-color: #121212;
-  }
-}
-
-@media (max-width: 1700px){
-  .logo{
-    margin-bottom: -14%;
-  }
-
-  .banner{
-    margin-left: 2%;
-  }
-
-  .project{
-    margin-top: 8%;
-  }
-
-  .modal-images{
-    height: 80%;
-    width: 80%;
-    border-radius: 8px;
-    margin-bottom: 4%;
-    margin-left: 10%;
-  }
-
-  .modal-content h6{
-    margin-top: 5%;
-    font-size: 10px;
-    color: #888;
-  }
-  
-  .modal-content p{
-    font-size: 12px;
-    padding-top: 2%;
-    line-height: 1.6;
-    color: #555;
-  }
-  
-  .modal-content h4{
-    margin-top: 0;
-    font-size: 24px;
-    color: #333;
-    justify-content:flex-end;
-  }
-  
-  .modal-content h5{
-    color: #333;
-    text-decoration: underline;
-    padding-top: 2%;
-  }
-
-  .modal-close{
-    position: fixed;
-  }
-
+.link-button-6:hover,
+.link-button-6:active {
+  background: #09223b;
+  color: rgb(255, 255, 255, .7);
 }
 
 
